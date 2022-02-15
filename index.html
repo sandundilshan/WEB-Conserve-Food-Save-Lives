@@ -37,6 +37,34 @@
 				<a href="" class="btn one">Explore Now &#8594</a>
 		</div>
 </header>
-
+<div id="sideNav">
+	<nav>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">INTRODUCTION</a></li>
+			<li><a href="#">SITUATION</a></li>
+			<li><a href="#">CONFLICT</a></li>
+			<li><a href="#">PROTECTION</a></li>
+			<li><a href="#">ORNOZATION</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+</div>
+<div id="menuBtn">
+     <img src="image/menu.jpg" id="menu">
+</div>
+<script>
+	var menuBtn=document.getEementById("menuBtn")
+	var sideNav=document.getElementById("sideNav")
+	var menu=document.getElementById("menu")	
+menuBtn.onclick=function(){
+	if(sideNav.style.right =="-250px"){
+		sideNav.style.right="0";
+	}
+	else{
+		sideNav.style.right="-250px";
+	}
+}
+</script>
 </body>
 </html>

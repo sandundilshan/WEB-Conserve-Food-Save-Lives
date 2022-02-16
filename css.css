@@ -49,6 +49,18 @@ nav ul li{
 	text-decoration: none;
 	color: #fff;
 }
+#menuBtn{
+	width: 70px;
+	height: 50px;
+	
+	text-align: center;
+	position: fixed;
+	right: 4px;
+	top: 30px;
+	border-radius: 3px;
+	z-index: 3;
+	cursor: pointer;
+}
 .logo img{
 
 	float:left;

@@ -3,32 +3,68 @@
 <head>
   <title>No hunger education</title>
   <link rel="stylesheet" type="text/css" href="css.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">	
 </head>
 <body>
 	<header>
-		<div class="main">
+		<div class="navbar">
 			<div class="logo">
 				<img src="logo.jpg">
 			</div>
-			<ul>
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-			    <li><a href="#">Blog</a></li>
-				<li><a href="#">Conflict</a></li>
-				<li><a href="#">organizations</a></li>
-				<li><a href="#">Contact us</a></li>
-            </ul>			
-        </div>
-        <div class="title">
-        	<h1>Education</h1>
-        </div>
-        <div class="button">
-        	<a herf="#" class="btn">WATCH VIDEO</a>
-        	<a herf="#" class="btn">LEARN MORE</a>
-		
-			
-		</div>        
-	</<header>
+			<div class="nav">
+				<ul>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+			        	<li><a href="#">Blog</a></li>
+					<li><a href="#">Conflict</a></li>
+					<li><a href="#">organizations</a></li>
+					<li><a href="#">Contact us</a></li>
 
+            			</ul>			
+        		</div>
+		
+        		<div class="title">
+				<h1>Zero Hunger</h1>
+       			 <div>
+        			<button type="button"><span></span>WATCH MORE</button>
+				<button type="button"><span></span>LEARN MORE</button>		
+			</div>
+		</div>
+		<div class="col-2">
+			<p><h2>
+				web assignment </br>final project
+			</h2></p>
+				<a href="" class="btn one">Explore Now &#8594</a>
+		</div>
+</header>
+<div id="sideNav">
+	<nav>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">INTRODUCTION</a></li>
+			<li><a href="#">SITUATION</a></li>
+			<li><a href="#">CONFLICT</a></li>
+			<li><a href="#">PROTECTION</a></li>
+			<li><a href="#">ORNOZATION</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+</div>
+<div id="menuBtn">
+     <img src="image/menu.jpg" id="menu">
+</div>
+<script>
+	var menuBtn=document.getEementById("menuBtn")
+	var sideNav=document.getElementById("sideNav")
+	var menu=document.getElementById("menu")	
+menuBtn.onclick=function(){
+	if(sideNav.style.right =="-250px"){
+		sideNav.style.right="0";
+	}
+	else{
+		sideNav.style.right="-250px";
+	}
+}
+</script>
 </body>
 </html>

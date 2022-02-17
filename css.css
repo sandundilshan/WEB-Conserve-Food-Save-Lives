@@ -61,6 +61,10 @@ nav ul li{
 	z-index: 3;
 	cursor: pointer;
 }
+#menuBtn img{
+	width: 40px;
+	margin-top: 0;	
+}
 .logo img{
 
 	float:left;
@@ -80,36 +84,39 @@ nav ul li{
 .title h1{
 	color:#fff;
 	font-size:80px;
-
+	font-style:italic;
 }
-.button{
-	position:absolute;
-	top:60%;
-	left:50%;
-	transform: translate(-50%,-50%);
+button{
+	width:200px;
+	padding:15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
 }
-.button{
-	color:blue;
-	font-size:20px;
+span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
 }
-.btn{
-	border:1px solid #fff;
-	display: inline-block;
-	background:#ff523b;
-	color:#fff;
-	padding:8px 30px;
-	margin:30px 0;
-	border-radius:30px;
-	text-decoration :none;
-	transition:0.5s ease;
+button:hover span{
+  width: 100%;
 }
-
-
-
-p{
-	font-color:white;
+button:hover{
+	border: none;
 }
-
 nav{
 	text-align:right;
 	display:flex;

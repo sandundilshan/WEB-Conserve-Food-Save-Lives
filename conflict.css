@@ -1,4 +1,25 @@
+<<<<<<< HEAD
 
 .picture (background-color; #c7bc9f; )
  width:400px
  height:400px
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body  {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+</style>
+</head>
+<body>
+
+<h1>Faces of hunger & conflict</h1>
+
+
+</body>
+</html>
+>>>>>>> 920eac0e3dc8d02e85b253a478865589ebcbe79d

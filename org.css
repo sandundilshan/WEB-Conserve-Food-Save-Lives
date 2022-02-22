@@ -76,7 +76,7 @@ height: 400px;
 margin-left: 840px;
 }
 .btn-read-more{
-  background: crimson;
+  background: rgb(204, 142, 153);
 }
 
 .filp-card-area{
@@ -140,3 +140,77 @@ position: absolute;
   color: white;
   transform: rotateY(180deg);
 }
+.work
+{
+  position:absolute;
+      height: 250px;
+      width:800px;
+      background-color: #466d53;
+}
+.box1 {
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.box2 {
+  padding-bottom: 50px;
+  color: beige;
+}
+.box1:hover {
+  z-index: -1;
+  opacity: 0.5;
+  font-size: 30px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+.box2:hover {
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 40px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+
+.Solution
+{
+  position:absolute;
+      height: 250px;
+      width:800px;
+      background-color: #466d53;
+}
+.boxA {
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.boxB{
+  padding-bottom: 50px;
+  color: beige;
+}
+.boxA:hover {
+  z-index: -1;
+  opacity: 0.5;
+  font-size: 30px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+.boxB:hover {
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 40px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+

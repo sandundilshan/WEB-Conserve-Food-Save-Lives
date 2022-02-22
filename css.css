@@ -5,10 +5,7 @@
 }
 header{
 
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url();
-
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(cpage.jpg);
-
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/cpage.jpg);
 	background-repeat:no-repeat;
 	height:100vh;
 	background-size:cover;

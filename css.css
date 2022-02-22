@@ -129,13 +129,6 @@ button:hover span{
 button:hover{
 	border: none;
 }
-nav{
-	text-align:right;
-	display:flex;
-	padding:2% 6%;
-	justify-content:space-between;
-	align-items:center;	
-}
 .btnone{
 	color:#fff;
 	font-size:10px;

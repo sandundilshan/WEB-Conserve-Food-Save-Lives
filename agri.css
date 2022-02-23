@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(229, 240, 236);
+    background-image: url("cover1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+h1{
+    letter-spacing: 5px;
+}
+h2{
+    letter-spacing: 5px;
+}
+ul li {
+    background: #edf044;
+    color: darblue;
+    margin: 2px;
+  }
+
+  img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+  }

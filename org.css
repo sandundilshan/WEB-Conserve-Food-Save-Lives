@@ -1,3 +1,5 @@
+
+
 .wrapper{
   width: 100%;
   height: 100%;
@@ -34,7 +36,14 @@
   letter-spacing: 3px;
   color:rgb(39, 43, 41);
   
+  
+  
 
+}
+.details-A
+{
+  font-style: italic;
+  
 }
 h3{
 font-size: 15px;
@@ -76,7 +85,7 @@ height: 400px;
 margin-left: 840px;
 }
 .btn-read-more{
-  background: crimson;
+  background: rgb(204, 142, 153);
 }
 
 .filp-card-area{
@@ -139,4 +148,105 @@ position: absolute;
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+}
+.work
+{
+  position:absolute;
+      height: 250px;
+      width:100%;
+      background-color: #38ac9a;
+}
+.box1 {
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.box2 {
+  padding-bottom: 50px;
+  color: beige;
+}
+.box1:hover {
+  z-index: -1;
+  opacity: 0.5;
+  font-size: 30px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+.box2:hover {
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 40px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+
+.Solution
+{
+  position:absolute;
+      height: 250px;
+      width: 100%;
+      background-color: #38ac9a;
+}
+.boxA {
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.boxB{
+  padding-bottom: 50px;
+  color: beige;
+}
+.boxA:hover {
+  z-index: -1;
+  opacity: 0.5;
+  font-size: 30px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+.boxB:hover {
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 40px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+.slide
+{
+  width: 800px;
+  height:400px;
+  background: url(img/hunger2.jpgs);
+  margin:100px auto;
+  animation: slide 20s infinite;
+  position:absolute;
+}
+@keyframes slide
+{
+  25%
+  {
+    background:url(img/south.jpg);
+  }
+  50%
+  {
+    background:url(img/famine-south-sudan.jpg);
+  }
+  75%
+  {
+    background:url(img/hunger3.jpg);
+  }
+  100%
+  {
+    background:url(img/hunger2.jpg);
+  }
 }

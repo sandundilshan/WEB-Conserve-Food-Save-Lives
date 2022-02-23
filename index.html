@@ -3,32 +3,76 @@
 <head>
   <title>No hunger education</title>
   <link rel="stylesheet" type="text/css" href="css.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">	
 </head>
 <body>
 	<header>
-		<div class="main">
+		<div class="navbar">
 			<div class="logo">
-				<img src="logo.jpg">
+				<img src="/Img/logo.jpg">
 			</div>
-			<ul>
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-			    <li><a href="#">Blog</a></li>
-				<li><a href="#">Conflict</a></li>
-				<li><a href="#">organizations</a></li>
-				<li><a href="#">Contact us</a></li>
-            </ul>			
-        </div>
-        <div class="title">
-        	<h1>Education</h1>
-        </div>
-        <div class="button">
-        	<a herf="#" class="btn">WATCH VIDEO</a>
-        	<a herf="#" class="btn">LEARN MORE</a>
-		
-			
-		</div>        
-	</<header>
-
+			<div class="nav">
+				<ul>
+					<li class="active"><a href="#">ABOUT</a></li>
+			        	<li><a href="#">Blog</a></li>
+					<li><a href="#">Rate</a></li>
+					<li><a href="#">Contact</a></li>
+            			</ul>			
+        		</div>
+        		<div class="title">
+				<h1>Conserve Food<br>Save Lives</h1>
+       			 <div>
+					<a href="https://youtu.be/UWFDMLPul-Q">
+        			<button type="button"><span></span>WATCH MORE</button></a>
+					<a href="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_2">
+					<button type="button"><span></span>LEARN MORE</button></a>		
+			</div>
+		</div>
+		<div class="content">
+			<br><br><br><br><h1><u>
+				Conserve Food Save Lives
+			</u></h1><br>
+			<p><h3>
+				Hunger is the leading cause of death in the world.<br><br>
+				Our planet has provided us with tremendous resources,<br><br>
+				but unequal access and inefficient handling <br><br>leaves millions
+				of people malnourished.<br><br> If we promote sustainable agriculture
+				with modern <br><br>technologies and fair distribution systems,<br> <br>
+				we can sustain the whole world’s population<br><br> and make sure 
+				that nobody will ever<br><br> suffer from hunger again.
+			</h3></p>
+		</div>
+		<div class="col-2">
+			<h2><br>
+				<a href="" class="btnone">Explore Now &#8594</a>
+			</h2>
+		</div>
+</header>
+<div id="sideNav">
+	<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="#">SITUATION</a></li>
+			<li><a href="conflict.html">CONFLICT</a></li>
+			<li><a href="org.html">ORNIZATION</a></li>
+		</ul>
+	</nav>
+</div>
+<div id="menuBtn">
+     <img src="Img/me1.png" id="menu">
+</div>
+<script>
+	var menuBtn=document.getElementById("menuBtn")
+	var sideNav=document.getElementById("sideNav")
+	var menu=document.getElementById("menu")	
+menuBtn.onclick=function(){
+	if(sideNav.style.right =="-250px"){
+		sideNav.style.right="0";
+	}
+	else{
+		sideNav.style.right="-250px";
+	}
+}
+</script>
 </body>
 </html>

@@ -1,61 +1,261 @@
+
+
 .wrapper{
-    background-color: blueviolet;
-    width: 100%;
-   
+  width: 100%;
+  height: 100%;
 }
 .header{
-    background-color: cyan;
-    width: 100%;
-    height: 400px;
-    position: absolute;
-    background: url();
-    background-size: cover;
-    height:110vh ;
-    padding-top: 5rem;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 0.7cm;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 0.7cm;
 }
- 
-.header h1,h2{
-    margin: 1.8cm;
-}   
+
 
 
 .about{
-    background-color: rgb(135, 148, 222);
-    width: 100%;
-    height: 400px;
-    margin-top: 400px;
-    position: absolute;
+  width: 100%;
+  height: 400px;
+  margin-top: 340px;
+  position: absolute;
 }
 .left-image{
-    background-color:cadetblue;
-    width: 80%;
-    height: 350px;
-    position: absolute;
-    
-    
+  width: 50%;
+  height: 350px;
+  position: absolute;
 }
 .right-details{
-    background-color: rgb(143, 148, 188);
-    width: 50%;
-    height: 350px;
-    position: absolute;
-    margin-left: 50%;
-    font-size:20px;
-    font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 3px;
-    
-    
+  width: 50%;
+  height: 350px;
+  position: absolute;
+  margin-left: 50%;
+  font-size:16px;
+  font-family: Georgia;
+  letter-spacing: 3px;
+  color:rgb(39, 43, 41);
+  
+  
+  
+
+}
+.details-A
+{
+  font-style: italic;
+  
+}
+h3{
+font-size: 15px;
+}
+.card{
+width: 100%;
+height: 350px;
+}
+.cards{
+width: 100%;
 }
 
+.content{
+ margin-left: 120px;
+}
+
+.card-left{
+padding: 15px 15px 15px 15px;
+position: absolute;
+width: 400px;
+height: 400px;
+
+
+}
+.card-center{
+padding: 15px 15px 15px 15px;
+position: absolute;
+width: 400px;
+height: 400px;
+margin-left: 415px;
+
+
+}
+.card-right{
+padding: 15px 15px 15px 5px;
+position: absolute;
+width: 400px;
+height: 400px;
+margin-left: 840px;
+}
+.btn-read-more{
+  background: rgb(204, 142, 153);
+}
+
+.filp-card-area{
+position: absolute;
+margin-top: 750px ;
+}
 
 .right-details h3{
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    background-color: darkolivegreen;
-    
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: darkolivegreen;
+  
 }
+.details-picture
+{
+
+position: absolute;
+}
+.details-A {
+position: absolute;
+}
+.flip-card {
+  background-color:transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.work
+{
+  position:absolute;
+      height: 250px;
+
+      width:800px;
+      background-color: #466d53;
+      width:100%;
+      background-color: #38ac9a;
+
+}
+.box1 {
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.box2 {
+  padding-bottom: 50px;
+  color: beige;
+}
+.box1:hover {
+  z-index: -1;
+  opacity: 0.5;
+  font-size: 30px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+.box2:hover {
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 40px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+
+.Solution
+{
+  position:absolute;
+      height: 250px;
+
+      width:800px;
+      background-color: #466d53;
+      width: 100%;
+      background-color: #38ac9a;
+}
+.boxA {
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.boxB{
+  padding-bottom: 50px;
+  color: beige;
+}
+.boxA:hover {
+  z-index: -1;
+  opacity: 0.5;
+  font-size: 30px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+.boxB:hover {
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 40px;
+  text-align: center;
+  transform-style: all;
+  transition-duration: 2s;
+}
+
+.slide
+{
+  width: 800px;
+  height:400px;
+  background: url(img/hunger2.jpgs);
+  margin:100px auto;
+  animation: slide 20s infinite;
+  position:absolute;
+}
+@keyframes slide
+{
+  25%
+  {
+    background:url(img/south.jpg);
+  }
+  50%
+  {
+    background:url(img/famine-south-sudan.jpg);
+  }
+  75%
+  {
+    background:url(img/hunger3.jpg);
+  }
+  100%
+  {
+    background:url(img/hunger2.jpg);
+  }
+}
+

@@ -1,6 +1,6 @@
 body{
     background-color: aquamarine;
-    background-image: url("global-hunger-pledge.jpg");
+    background-image: url("cover3.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ h2{
     letter-spacing: 5px;
 }
 ul li {
-    background: #f8faf8;
+    background: #808b40;
     color: darblue;
     margin: 2px;
   }

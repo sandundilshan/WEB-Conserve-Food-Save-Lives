@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kanit:wght@200&family=Mukta:wght@300&display=swap');
 
-
-.thambnail { background-color: #c7bc9f; }
-
-
 .header{
   background-repeat: no-repeat;
   height: 100vh;
@@ -119,7 +115,7 @@
   border-bottom-left-radius: 25px;
 }
   
-}
+
 
 .set {
   column-count: 3;
@@ -134,19 +130,7 @@
 .net {
   text-align:left;
   }
-  .myDIV {
-    width: 300px;
-    height: 200px;
-    background: rgb(140, 141, 125);
-    animation: mymove 5s infinite;
-  }
   
-  @keyframes mymove {
-    from {background-color: rgb(129, 133, 106);}
-    to {background-color: rgb(144, 145, 95);}
-  }
-
-
 
 
 

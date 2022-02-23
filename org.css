@@ -1,3 +1,5 @@
+
+
 .wrapper{
   width: 100%;
   height: 100%;
@@ -34,7 +36,14 @@
   letter-spacing: 3px;
   color:rgb(39, 43, 41);
   
+  
+  
 
+}
+.details-A
+{
+  font-style: italic;
+  
 }
 h3{
 font-size: 15px;
@@ -144,8 +153,12 @@ position: absolute;
 {
   position:absolute;
       height: 250px;
+
       width:800px;
       background-color: #466d53;
+      width:100%;
+      background-color: #38ac9a;
+
 }
 .box1 {
   color: #fff;
@@ -181,8 +194,11 @@ position: absolute;
 {
   position:absolute;
       height: 250px;
+
       width:800px;
       background-color: #466d53;
+      width: 100%;
+      background-color: #38ac9a;
 }
 .boxA {
   color: #fff;
@@ -212,5 +228,34 @@ position: absolute;
   text-align: center;
   transform-style: all;
   transition-duration: 2s;
+}
+
+.slide
+{
+  width: 800px;
+  height:400px;
+  background: url(img/hunger2.jpgs);
+  margin:100px auto;
+  animation: slide 20s infinite;
+  position:absolute;
+}
+@keyframes slide
+{
+  25%
+  {
+    background:url(img/south.jpg);
+  }
+  50%
+  {
+    background:url(img/famine-south-sudan.jpg);
+  }
+  75%
+  {
+    background:url(img/hunger3.jpg);
+  }
+  100%
+  {
+    background:url(img/hunger2.jpg);
+  }
 }
 

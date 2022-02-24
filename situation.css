@@ -4,7 +4,7 @@
 	font-family:Century Gothic;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kids.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Img/st.jpeg);
 	background-repeat:no-repeat;
 	height:100vh;
 	background-size:cover;
@@ -113,7 +113,7 @@ button:hover
     cursor: pointer;
   }
   #menuBtn img{
-    width: 70px;
+    width: 30px;
     margin-top: 0;
     margin: 2px;	
   }

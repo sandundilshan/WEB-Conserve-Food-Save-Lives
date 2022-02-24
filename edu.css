@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(229, 240, 236);
     background-image: url("bgpic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,14 +7,16 @@ body{
     background-position: center;
     
 }
+
 h1{
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 h2{
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+
 }
 ul li {
-    background: #808b40;
+    background: #edf044;
     color: darblue;
     margin: 2px;
   }
@@ -27,6 +29,3 @@ ul li {
     width: 60%;
     
   }
-
-
-

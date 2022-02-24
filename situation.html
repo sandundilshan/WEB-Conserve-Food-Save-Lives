@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>situation</title>
+  <link rel="stylesheet" type="text/css" href="situation.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+	<header>
+		<div class="navbar">	
+        	<div>
+				<a href="agri.html">
+				<button>AGRICULTURE</button></a>
+				<a href="edu1.html">
+				<button type="submit">EDUCATION</button></a>
+				<a href="econ.html">
+					<button type="submit">economic</button></a>
+			</div>    
+		<div class="content">
+			<br><br><br><br><h1><u>
+				SITUATION
+			</u></h1><br>
+			<p><h3>
+                Around the world, people experiencing poverty often share three traits:<br>
+                they live in rural areas, rely on agriculture and forests to survive, and <br> 
+                don’t have legal control over the land on which they depend. We offer the <br> 
+                tools to help people lift themselves out of poverty. Stronger rights to land<br>  
+                have the power to reduce poverty and conflict, increase economic activity, <br> 
+                empower women, strengthen food security, and improve environmental <br> 
+                stewardship — for an individual, a family, a community, and an entire country.<br> 
+			</h3></p>
+		</div>
+	</header>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">SITUATION</a></li>
+                <li><a href="conflict.html">CONFLICT</a></li>
+                <li><a href="org.html">ORNIZATION</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+         <img src="Img/me1.png" id="menu">
+    </div>
+    <script>
+        var menuBtn=document.getElementById("menuBtn")
+        var sideNav=document.getElementById("sideNav")
+        var menu=document.getElementById("menu")	
+    menuBtn.onclick=function(){
+        if(sideNav.style.right =="-250px"){
+            sideNav.style.right="0";
+        }
+        else{
+            sideNav.style.right="-250px";
+        }
+    }
+    </script>
+</body>
+</html>

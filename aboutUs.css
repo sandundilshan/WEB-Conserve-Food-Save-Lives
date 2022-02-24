@@ -76,7 +76,7 @@
       position: fixed;
       right: -250px;
       top: 0;
-      background: rgb(189, 24, 126);
+      background: rgba(189, 24, 126, 0.295);
       z-index:2;
       transition: 0.5s;
       border:1px solid transparent;

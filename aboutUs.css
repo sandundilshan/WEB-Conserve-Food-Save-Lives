@@ -86,7 +86,7 @@
       margin-top: 70px;
     }
     #sideNav ul li a:hover{
-      background-color:rgb(139, 139, 101);
+      background-color:rgb(189, 24, 126);
       color:#000;
       border-radius: 50px;
     }
@@ -119,7 +119,7 @@
       cursor: pointer;
     }
     #menuBtn img{
-      width: 70px;
+      width: 30px;
       margin-top: 0;
       margin: 2px;	
     }

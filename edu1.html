@@ -63,8 +63,33 @@ surrounding communities later in life.<br>
 ingredients' lists and health labels.<br> Furthermore, they learn to appreciate indigenous and local perspectives on ways
  of living together and using existing resources in a sustainable manner.<br>
 <a href="https://en.unesco.org/themes/education/sdgs/material/02#primary"> (Access Educational materials here)</a></p>
-
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">SITUATION</a></li>
+            <li><a href="conflict.html">CONFLICT</a></li>
+            <li><a href="org.html">ORNIZATION</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+     <img src="Img/me1.png" id="menu">
+</div>
+<script>
+    var menuBtn=document.getElementById("menuBtn")
+    var sideNav=document.getElementById("sideNav")
+    var menu=document.getElementById("menu")	
+menuBtn.onclick=function(){
+    if(sideNav.style.right =="-250px"){
+        sideNav.style.right="0";
+    }
+    else{
+        sideNav.style.right="-250px";
+    }
+}
+</script>
 
     
-        </body>
+</body>
 </html>

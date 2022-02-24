@@ -6,7 +6,7 @@
     width:100%;
     height:100vh;
     font-family: sans-serif;
-    background-image: url(../webassi/image/bgpic.jpg);
+    background-image: url("Img/bgpic.jpg");
     color: #fff;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(11, 17, 15, 0.63),rgba(11, 17, 15, 0.63)),url(../webassi/image/log.jpeg);
+    background-image: linear-gradient(rgba(11, 17, 15, 0.63),rgba(11, 17, 15, 0.63)),url("Img/log.jpeg");
     padding: 55px;
     box-sizing: border-box;
     backface-visibility: hidden;

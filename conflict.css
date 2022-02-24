@@ -141,7 +141,7 @@
     position: fixed;
     right: -250px;
     top: 0;
-    background: #1284ee7a;
+    background: #aca76a7a;
     z-index:2;
     transition: 0.5s;
     border:1px solid transparent;
@@ -151,7 +151,7 @@
     margin-top: 70px;
   }
   #sideNav ul li a:hover{
-    background-color:cyan;
+    background-color:rgb(139, 139, 101);
     color:#000;
     border-radius: 50px;
   }

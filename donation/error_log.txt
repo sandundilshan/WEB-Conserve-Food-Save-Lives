@@ -1,0 +1,36 @@
+Array(
+time==>February 22, 2022, 5:24 am
+sql==>SELECT * FROM donation ORDER BY dept DESC
+mysqlerror==>Sort failed: Unknown column 'dept' in 'order clause'
+filename==>C:\xampp\htdocs\donation\app.model.php
+linenumber==>217
+remotehost==>DESKTOP-NDSAAVK
+clientaddress==>127.0.0.1
+)
+Array(
+time==>February 22, 2022, 5:24 am
+sql==>SELECT * FROM donation ORDER BY pos DESC
+mysqlerror==>Sort failed: Unknown column 'pos' in 'order clause'
+filename==>C:\xampp\htdocs\donation\app.model.php
+linenumber==>217
+remotehost==>DESKTOP-NDSAAVK
+clientaddress==>127.0.0.1
+)
+Array(
+time==>February 22, 2022, 5:25 am
+sql==>SELECT * FROM donation ORDER BY mc DESC
+mysqlerror==>Sort failed: Unknown column 'mc' in 'order clause'
+filename==>C:\xampp\htdocs\donation\app.model.php
+linenumber==>217
+remotehost==>DESKTOP-NDSAAVK
+clientaddress==>127.0.0.1
+)
+Array(
+time==>February 22, 2022, 5:31 am
+sql==>SELECT * FROM donation ORDER BY pos DESC
+mysqlerror==>Sort failed: Unknown column 'pos' in 'order clause'
+filename==>C:\xampp\htdocs\donation\app.model.php
+linenumber==>217
+remotehost==>DESKTOP-NDSAAVK
+clientaddress==>127.0.0.1
+)

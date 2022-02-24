@@ -1,0 +1,44 @@
+.wrapper{
+    padding: 3% 3% 3% 3%;
+    width: 1300px;
+    height: 100%;
+}
+.left{
+    width: 33%;
+    padding-top: 3%;
+    position: absolute;
+    height: 250px;
+    background: darkgray;
+
+}
+.center{
+    width: 33%;
+    padding-top: 3%;
+    position: absolute;
+    background: darkgray;
+    margin-left: 25%;
+    height: 250px;
+}
+
+.right{
+    padding-top: 3%;
+    position: absolute;
+
+    background: darkgray;
+    margin-left: 50%;
+    height: 250px;
+
+}
+.table{
+
+    width: 1300px;
+    padding: 23% 1% 1% 0%;
+
+}
+table tr th{
+    background: darkgray;
+    width: 1300px;
+}
+.form{
+    font-size: 12px;
+}

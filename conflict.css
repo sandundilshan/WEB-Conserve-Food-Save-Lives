@@ -78,8 +78,8 @@
 
 .header{
   border-radius: 25px;
-  background: #807953;
-  border: 2px solid #ede5b7 ;
+  background: #3d3d3c;
+  border: 2px solid #535350 ;
   padding: 30px;
   width: 600px;
   height: 250px;
@@ -97,7 +97,7 @@
 
   .dex {
   border: 1px solid;
-  background: #a3995f;
+  background: #6e6e69;
   padding: 50px;
   box-shadow: 5px 10px;
 

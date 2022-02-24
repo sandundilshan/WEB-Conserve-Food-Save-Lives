@@ -90,7 +90,7 @@ nav ul li{
 }
 .logo img{
 	float:left;
-	width:100px;
+	width:50px;
 	height:auto;
 }
 .main{
@@ -144,10 +144,7 @@ button:hover{
 	font-size:10px;
 	font-style: italic;	
 }
-.col-2{
-	font-style: initial;
-	color:#fff;
-}
+
 .btnone:hover{
 	color: red;
 	font-size: 20px;

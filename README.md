@@ -1,4 +1,4 @@
-                                                                       WEB-Conserve-Food-Save-Lives  🌍💻
+                                                           WEB-Conserve-Food-Save-Lives  🌍💻
 
 
 🌱 Welcome to 'Conserve and Save Lives,' an innovative web application project that addresses the critical pillars of agriculture, economic empowerment, and education within a single, integrated platform.

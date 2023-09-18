@@ -16,3 +16,8 @@
 
 ![image](Img/screenshot1.png)
 ![image](Img/Screenshot4.png)
+![image](Img/Screenshot5.png)
+![image](Img/Screenshot2.png)
+![image](Img/Screenshot3.png)
+![image](Img/Screenshot6.png)
+![image](Img/Screenshot7.png)

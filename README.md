@@ -14,4 +14,4 @@
 
                                                               <h2> Screenshots</h2>
 
-![image]([Img/screenshot1.png)
+![image](Img/screenshot1.png)

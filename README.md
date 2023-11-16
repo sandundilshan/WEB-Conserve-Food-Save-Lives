@@ -9,7 +9,7 @@
 
 📚 In education, we provide a virtual learning hub with a diverse range of courses 📖, tutorials 🎓, and resources 📊 for students 🎒, teachers 🍎, and lifelong learners 🌟. We believe education is the key to progress, and we're committed to making it accessible to all 🌐.
 
-🌎 Join our global community of change-makers 🤝, access data-driven insights 📈, and collaborate on projects 🌐 to drive positive change. 'Conserve and Save Lives' is your one-stop destination for holistic development, where innovation meets empowerment for a brighter future 🌟.
+🌎 Join our global community of change-makers 🤝, access data-driven insights 📈, and collaborate on projects 🌐 to drive positive change. 'Conserve Food and Save Lives' is your one-stop destination for holistic development, where innovation meets empowerment for a brighter future 🌟.
 
 
                                                                Screenshots
